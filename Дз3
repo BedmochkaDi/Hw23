@@ -1,0 +1,15 @@
+Перше
+x=(int(input))
+y=(int(input))
+print(x/y)
+print(x/y-x)
+print(x/y-y)
+Друге
+x=(int(input))
+y=(int(input))
+if x>y:
+    print("love")
+if x<y:
+    print("Непогано")
+if x=y:
+    print("Ok")
