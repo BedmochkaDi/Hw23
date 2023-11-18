@@ -1,0 +1,28 @@
+Четверте
+a = int(input('Введите число: '))
+for i in range(1,11):
+ print(a,'*',i,'=',a*i)
+Пяте
+a = int(input("Введіть число a: "))
+b = int(input("Введіть число b: "))
+if a % 2 == 0:
+   a = a + 1
+while a <= b:
+   print(a)
+   a = a + 2
+Шість
+a = int(input('Введіть число А: '))
+b = int(input('Введіть число B: '))
+for i in range(a, b + 1, 1):
+ print(i, end=" ")
+Сьоме
+a = int(input('Введите число А: '))
+b = int(input('Введите число B: '))
+for i in range(a, b + 1, 1):
+ print(i, end=" ")
+Восьме
+a = int(input())
+while a>0:
+   print('Число TRUE')
+else:
+   print('Число False')
